@@ -1,6 +1,6 @@
 node{
   stage('SCM Checkout'){
-    git 'https://github.com/ambgnmtfd/Automation'
+    git 'https://github.com/ambgnmtfd/Automation/tree/master/TestingAutomation-BDDFramework'
   }
   
   stage('Compile-Package'){
