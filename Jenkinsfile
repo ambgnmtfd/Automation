@@ -1,6 +1,6 @@
 node{
   stage('SCM Checkout'){
-    git 'https://github.com/ambgnmtfd/AutomationFramework'
+    git 'https://github.com/ambgnmtfd/Automation'
   }
   
   stage('Compile-Package'){
